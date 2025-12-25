@@ -1,6 +1,6 @@
 # 🗂️ Voice AI Dashboard – Full-Stack Web Application
 
-A lightweight **JavaScript-based full-stack web application** built using **Next.js App Router**, designed to demonstrate **frontend architecture, authentication flow, and dynamic UI configuration** for speech-based systems.
+A lightweight **TypeScript-based full-stack web application** built using **Next.js App Router**, designed to demonstrate **frontend architecture, authentication flow, and dynamic UI configuration** for speech-based systems.
 
 ---
 
@@ -16,14 +16,14 @@ A lightweight **JavaScript-based full-stack web application** built using **Next
 
 ## 📄 Pages Overview
 
-| Route                | Description                                   |
-|---------------------|-----------------------------------------------|
-| `/`                 | Minimal landing page with call-to-action      |
-| `/signup`           | User registration form                        |
-| `/login`            | Login using stored user credentials           |
-| `/dashboard`        | Protected dashboard with navigation           |
-| `/dashboard/profile`| View and update user profile information      |
-| `/dashboard/agent`  | Dynamic STT configuration using linked inputs |
+| Route                 | Description                                   |
+|----------------------|-----------------------------------------------|
+| `/`                  | Minimal landing page with call-to-action      |
+| `/signup`            | User registration form                        |
+| `/login`             | Login using stored user credentials           |
+| `/dashboard`         | Protected dashboard with navigation           |
+| `/dashboard/profile` | View and update user profile information      |
+| `/dashboard/agent`   | Dynamic STT configuration using linked inputs |
 
 ---
 
@@ -38,7 +38,7 @@ A lightweight **JavaScript-based full-stack web application** built using **Next
 
 ## 🧰 Tech Stack
 
-- **Language:** JavaScript  
+- **Language:** TypeScript  
 - **Framework:** Next.js (App Router)  
 - **Styling:** Tailwind CSS  
 - **State Management:** React Hooks (`useState`, `useEffect`)  
