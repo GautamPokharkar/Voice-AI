@@ -1,40 +1,48 @@
-# 🗂️ Voice AI Dashboard (Next.js)
+# 🗂️ Voice AI Dashboard – Full-Stack Web Application
 
-A minimal full-stack dashboard built with **Next.js App Router**, **Tailwind CSS**, and local JSON storage. Designed for learning and showcasing frontend + basic backend skills.
+A lightweight **JavaScript-based full-stack web application** built using **Next.js App Router**, designed to demonstrate **frontend architecture, authentication flow, and dynamic UI configuration** for speech-based systems.
 
 ---
 
 ## ✅ Features
 
-- 🌐 Landing, Signup, Login, and Dashboard pages
-- 🔐 State-based Auth (no JWT)
-- 📝 Form handling with validation
-- 📁 File-based user storage (`public/users.json`)
-- 🔧 STT Configuration UI from `stt.json`
-
+- Landing, signup, login, and protected dashboard pages  
+- State-based authentication (without JWT)  
+- Form handling with client-side validation  
+- File-based user data management using `users.json`  
+- Dynamic Speech-to-Text (STT) configuration interface driven by `stt.json`  
 
 ---
 
 ## 📄 Pages Overview
 
-| Route                  | Description                                    |
-|------------------------|------------------------------------------------|
-| `/`                    | Minimal landing page with "Sign Up" CTA       |
-| `/signup`              | Sign up form (username, email, password)      |
-| `/login`               | Login via saved users (in `users.json`)       |
-| `/dashboard`           | Protected page with sidebar + links           |
-| `/dashboard/profile`   | View/update user info                         |
-| `/dashboard/agent`     | 3-linked dropdowns via `stt.json`             |
+| Route                | Description                                   |
+|---------------------|-----------------------------------------------|
+| `/`                 | Minimal landing page with call-to-action      |
+| `/signup`           | User registration form                        |
+| `/login`            | Login using stored user credentials           |
+| `/dashboard`        | Protected dashboard with navigation           |
+| `/dashboard/profile`| View and update user profile information      |
+| `/dashboard/agent`  | Dynamic STT configuration using linked inputs |
+
+---
+
+## 🎯 Learning Outcomes
+
+- Designed a **state-based authentication mechanism** without external libraries  
+- Implemented **configuration-driven UI components** using structured JSON data  
+- Gained experience in building **scalable frontend architecture** with Next.js App Router  
+- Applied **clean state management practices** using React Hooks  
 
 ---
 
 ## 🧰 Tech Stack
 
-- [Next.js (App Router)]
-- [Tailwind CSS]
-- React Hooks: `useState`, `useEffect`
-- File-based JSON storage
+- **Language:** JavaScript  
+- **Framework:** Next.js (App Router)  
+- **Styling:** Tailwind CSS  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Data Handling:** File-based JSON storage  
 
 ---
-
 
